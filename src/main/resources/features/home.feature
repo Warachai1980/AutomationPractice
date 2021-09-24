@@ -4,4 +4,4 @@ Feature: Home page scenarios
     Given I navigate to homepage
     Then I should be able to see Saucedemo link text
     When I click Saucedemo link text
-    Then I should see Swag Labs title
+    Then Title of the page should be Swag labs

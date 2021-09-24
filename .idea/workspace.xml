@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf3f34c-718e-47d8-9e0e-a57a9603fcae" name="Changes" comment="" />
+    <list default="true" id="4bf3f34c-718e-47d8-9e0e-a57a9603fcae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/impl/UserMgtImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/UserMgtPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/steps/UserMgtSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/userMgt.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RunFailedScenarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserMgtRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/userMgt.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/impl/UserMgtImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/UserMgtPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/steps/Hooks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/steps/UserMgtSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/WebDriverUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/failed-scenarios/userMgtRunner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/homeRunner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/HomeRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/RunFailedScenarios.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/UserMgtRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/userMgtRunner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impl/HomeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impl/HomeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/HomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/HomeSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/home.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/home.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/impl/HomeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/impl/HomeImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/steps/HomeSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/steps/HomeSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ConfigReader.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +50,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1yTLRxnxoYB5SWVzmiZVtpBsR1U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,16 +72,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: home">
-    <configuration name="Feature: home" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: userMgt">
+    <configuration name="Feature: userMgt" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/home.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/userMgt.feature" />
+      <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationPractice" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: home" />
+      <option name="SUGGESTED_NAME" value="Feature: userMgt" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -46,14 +95,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify saucedemo link text" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify Access DB button is present" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/home.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/userMgt.feature" />
+      <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AutomationPractice" />
-      <option name="NAME_FILTER" value="^Verify saucedemo link text$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify saucedemo link text$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify saucedemo link text" />
+      <option name="NAME_FILTER" value="^Verify Access DB button is present$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Access DB button is present$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Access DB button is present" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify In LogIn page and Image is load" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/userMgt.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AutomationPractice" />
+      <option name="NAME_FILTER" value="^Verify In LogIn page and Image is load$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify In LogIn page and Image is load$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify In LogIn page and Image is load" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify title of the page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/userMgt.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AutomationPractice" />
+      <option name="NAME_FILTER" value="^Verify title of the page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify title of the page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify title of the page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: verify title of the page is User DB" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/userMgt.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AutomationPractice" />
+      <option name="NAME_FILTER" value="^verify title of the page is User DB$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^verify title of the page is User DB$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: verify title of the page is User DB" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: home" />
-        <item itemvalue="Cucumber Java.Scenario: Verify saucedemo link text" />
+        <item itemvalue="Cucumber Java.Feature: userMgt" />
+        <item itemvalue="Cucumber Java.Scenario: Verify In LogIn page and Image is load" />
+        <item itemvalue="Cucumber Java.Scenario: Verify Access DB button is present" />
+        <item itemvalue="Cucumber Java.Scenario: verify title of the page is User DB" />
+        <item itemvalue="Cucumber Java.Scenario: Verify title of the page" />
       </list>
     </recent_temporary>
   </component>
@@ -82,5 +195,21 @@
       <updated>1632270627398</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AutomationPractice$Scenario__verify_title_of_the_page_is_User_DB.ic" NAME="Scenario: verify title of the page is User DB Coverage Results" MODIFIED="1632464351925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
   </component>
 </project>

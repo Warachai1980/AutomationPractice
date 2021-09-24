@@ -4,27 +4,29 @@ import impl.HomeImpl;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
+import utils.WebDriverUtils;
 
 public class HomeSteps {
+    HomeImpl impl = new HomeImpl();
 
     @Given("I navigate to homepage")
     public void i_navigate_to_homepage() {
-        HomeImpl impl = new HomeImpl();
         impl.navigateToHomepage();
     }
+
     @Then("I should be able to see Saucedemo link text")
     public void i_should_be_able_to_see_saucedemo_link_text() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        Assert.assertEquals("Saucedemo", impl.getPage().sauceDemoLink.getText());
     }
+
     @When("I click Saucedemo link text")
     public void i_click_saucedemo_link_text() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        impl.openLinkInNewWindowAndSwitch("Saucedemo");
     }
-    @Then("I should see Swag Labs title")
+
+    @Then("Title of the page should be Swag labs")
     public void i_should_see_swag_labs_title() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        Assert.assertEquals("Swag Labs", WebDriverUtils.getDriver().getTitle());
     }
 }
