@@ -15,18 +15,21 @@ public class HomeSteps {
         impl.navigateToHomepage();
     }
 
-    @Then("I should be able to see Saucedemo link text")
-    public void i_should_be_able_to_see_saucedemo_link_text() {
-        Assert.assertEquals("Saucedemo", impl.getPage().sauceDemoLink.getText());
+    @Then("I should be able to see {string} link text")
+    public void iShouldBeAbleToSeeLinkText(String linkText) {
+        String actualText = impl.getLinkText(linkText);
+        Assert.assertEquals(linkText, actualText);
     }
 
-    @When("I click Saucedemo link text")
-    public void i_click_saucedemo_link_text() {
-        impl.openLinkInNewWindowAndSwitch("Saucedemo");
+    @When("I click {string} link text")
+    public void i_click_saucedemo_link_text(String linkText) {
+        impl.openLinkInNewWindowAndSwitch(linkText);
     }
 
-    @Then("Title of the page should be Swag labs")
-    public void i_should_see_swag_labs_title() {
-        Assert.assertEquals("Swag Labs", WebDriverUtils.getDriver().getTitle());
+    @Then("Title of the page should be {string}")
+    public void i_should_see_swag_labs_title(String expectedTitle) {
+        Assert.assertEquals(expectedTitle, WebDriverUtils.getDriver().getTitle());
     }
+
+
 }

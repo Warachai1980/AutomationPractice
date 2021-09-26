@@ -9,8 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/main/resources/features/userMgt.feature",
         glue = {"steps"},
         stepNotifications = true,
-        dryRun = false// give not open the page
+        dryRun = false// true = not open browser  , false = open browser
 )
-
 public class UserMgtRunner {
 }
